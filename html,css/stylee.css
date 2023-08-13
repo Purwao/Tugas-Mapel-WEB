@@ -1,0 +1,61 @@
+#bordernama{
+     float: left;
+   
+  }
+  
+  
+.tengah{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+  
+  body{
+      margin: 0px;    
+      
+  }
+  
+  .marginworld{
+      background-color: skyblue;
+     padding: 30px;
+      margin: 40px;
+      border: solid black;
+  }
+
+  .divider{
+   
+    
+    background-color:skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+img{
+    border-radius: 20px;}
+
+.block{
+    
+    text-align: center;
+    border-right: dashed;
+    padding: 10px ;
+}
+
+.gridcont{
+    display: grid;
+     grid-template-columns: auto auto;
+      grid-gap: 10px;
+        background-color: skyblue;
+            padding: 20px;
+}
+
+.griditem{
+    background-color: azure;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
